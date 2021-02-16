@@ -1,0 +1,24 @@
+name: esm 
+
+channels:
+  - conda-forge
+  - anaconda
+  - bioconda
+
+dependencies:
+  - python=3.7
+  - jupyterlab=3
+  - pytorch
+  - torchvision
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn=0.11.0
+  - scikit-learn
+  - scipy
+  - tqdm
+  - biopython
+  - ipywidgets=7.6.2
+  - pip
+  - pip:
+    - git+https://github.com/facebookresearch/esm.git 
